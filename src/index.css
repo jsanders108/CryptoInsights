@@ -1,0 +1,274 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*
+CSS for the Header (all pages)
+*/
+
+.header {
+    background: white; 
+    padding: 20px 0px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+}
+
+.header--wrapper {
+    display: flex; 
+    align-items: center; 
+}
+
+.header--title {
+    margin-top: 0px; 
+    margin-bottom: 20px;  
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: maroon;  
+    text-align: center; 
+}
+
+.bitcoin-logo {
+    width: 90px; 
+    margin-right: 10px; 
+}
+
+.eth-logo {
+    width: 85px;
+    margin-left: 10px;  
+}
+
+.link {
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.link:hover, .link:focus {
+    color: darkblue; 
+}
+
+/*
+CSS for the OverviewPage
+*/
+
+.overview-wrapper {
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    max-width: 800px; 
+    line-height: 1.4
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 0px; 
+    color: darkblue; 
+}
+
+.intro-text,
+.objectives-text,
+.methodology-text,
+.key-findings-ul,
+.conclusions-ul {
+    margin-top: 10px; 
+}
+
+li {
+    line-height: 1.5;
+    margin-bottom: 8px; 
+}
+
+
+/*
+CSS for the Detailed Results Page
+*/
+
+.main-wrapper {
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    max-width: 800px; 
+    line-height: 1.4
+}
+
+.summary-text-instructions {
+    margin-bottom: 0px;   
+ }
+ 
+ .summary-text-subInstructions {
+     margin-top: 5px; 
+ }
+
+ .button-row {
+    display: flex; 
+    padding-bottom: 20px; 
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    margin: 5px; 
+    border: none;
+    border-radius: 6px;
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+
+/*
+CSS for the Section Components Pages
+*/
+
+.chart--wrapper {
+    display: flex;
+    flex-direction: column; 
+}
+
+.section-title {
+    align-self: center; 
+}
+
+.additional-analysis-text {
+    align-self: center;
+    margin-top: -40px; 
+}
+
+.chart--img {
+    width: 750px;
+    align-self: center; 
+    border-radius: 0.5rem; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    margin-bottom: 75px; 
+}
+
+
+/*
+CSS for the Top 20 Cryptos Page
+*/
+
+.main--container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card--container {
+    border-radius: 0.5rem; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    height: 310px; 
+    background: white; 
+    margin-bottom: 1.5rem; 
+}
+
+.card--logo-name-wrapper {
+    display: flex; 
+    align-items: center;  
+    margin-bottom: 1.5rem; 
+}
+
+.card--stats-wrapper {
+    display: flex;
+    flex-direction: column;   
+}
+
+.trending--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer--container {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding: 1rem 0rem; 
+    margin-top: 1.5rem;
+}
+
+.card--name {
+    margin-right: auto; 
+    margin-left: .75rem;
+    font-size: 1.5rem; 
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0rem; 
+}
+
+.card--rank {
+    padding: 1rem;
+    margin-top: 0rem; 
+    background: #ccccff;
+    font-weight: bold;  
+    align-self: flex-start;
+    font-size: 1.1rem;
+    border-top-right-radius: .5rem;  
+}
+
+.card--current-price {
+    font-size: 1.2rem;
+    margin-left: 1rem; 
+    margin-top: 0rem; 
+}
+
+.card--price-change-24hr, 
+.card--price-change-percent-24hr, 
+.card--market-cap {
+       font-size: 1rem;
+       margin: .5rem 0px;
+       margin-left: 1rem;  
+}
+
+.trending--title {
+    font-size: 2rem;
+    margin-bottom: .6rem; 
+}
+
+.trending--logo {
+    width: 50px;
+    margin-bottom: 1.4rem
+}
+
+.trending--name {
+    font-size: 1.2rem; 
+    margin-top: 1.4rem; 
+}
+
+
+.card--coin-logo {
+    width: 50px; 
+    margin-left: .5rem; 
+    margin-top: .5rem; 
+}
+
+.card--coin-logo-bottom {
+    width: 30px; 
+    align-self: center; 
+    margin: 1.2rem 0rem; 
+}
+
+@media (min-width: 800px) {
+    .cards--mainContainer{
+        display: flex; 
+        flex-wrap: wrap; 
+        max-width: 1000px;
+        justify-content: space-evenly;  
+    }
+}
+

@@ -1,7 +1,6 @@
 This React website project combines my frontend developer skills with my deep knowledge of market research. At the end of December 2022, I created, programmed, and distributed an 18 question online survey about cryptocurrencies to members of a QuestionPro Audience panel. I wanted to explore the following areas among the general U.S. public:
 
 jhjhjhjh
-
 kjkjjkj
 
 Awareness of and familiarity with cryptocurrencies.

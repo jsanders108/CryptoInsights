@@ -8,5 +8,5 @@ This React website project combines my frontend developer skills with my deep kn
 
 After gathering 178 completed surveys, I processed and analyzed the results using SPSS. Next, I created a report consisting of 37 PowerPoint slides, which I uploaded to this website. On the "Detailed Results" page, I created dynamic buttons for the four separate areas of the survey to make it easier to view/hide the results (e.g., click on the "Ownership" button to view/hide the results pertaining to that particular theme). 
 
-Building on the cryptocurrency theme, I added a page to the website that tracks the top 20 cryptocurrencies by market cap via a Coingecko API call. Top trending coins are also included (via a separate API call).
+Building on the cryptocurrency theme, I added a page to the website that tracks the top 20 cryptocurrencies by market cap via a Coingecko API call. Top trending coins are also included (via a separate API call). 
 
